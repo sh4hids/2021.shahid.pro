@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Sitemap: https://v2021.shahid.pro/sitemap.xml
+Host: https://v2021.shahid.pro

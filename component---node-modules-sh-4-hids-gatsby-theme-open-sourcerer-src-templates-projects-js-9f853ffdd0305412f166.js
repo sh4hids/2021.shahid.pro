@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_2021_shahid_pro=self.webpackChunk_2021_shahid_pro||[]).push([[884],{4324:function(e,t,s){s.r(t);var r=s(6540),c=s(8007),a=s(476),n=s(419);t.default=()=>{const e=(0,c.useStaticQuery)("1991781151"),{title:t="Projects",metaDescription:s="",contents:i=[]}=e.allYamlPage.nodes[0]||{};return r.createElement(n.i,{title:t,description:s,url:"/projects/"},r.createElement(a.sO,{projects:i}))}}}]);
+//# sourceMappingURL=component---node-modules-sh-4-hids-gatsby-theme-open-sourcerer-src-templates-projects-js-9f853ffdd0305412f166.js.map
