@@ -1,5 +1,5 @@
 {
-  "name": "shahid.pro",
+  "name": "2021.shahid.pro",
   "version": "2.0.0",
   "private": true,
   "description": "My personal protfolio based on @sh4hids/gatsby-theme-open-sourcerer",
@@ -19,11 +19,13 @@
     "lint:fix": "eslint --fix --ignore-path .gitignore --ext .js",
     "validate": "npm-run-all --parallel check-format lint",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sh4hids/shahid.pro.git"
+    "url": "git+https://github.com/sh4hids/2021.shahid.pro.git"
   },
   "keywords": [
     "gatsby starter",
@@ -61,6 +63,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^6.1.1",
     "husky": "^7.0.2",
     "inquirer": "^8.1.2",
     "json-to-pretty-yaml": "^1.2.2",
